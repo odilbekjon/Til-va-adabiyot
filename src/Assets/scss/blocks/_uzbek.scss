@@ -1,0 +1,100 @@
+.uzbek__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.uzbek__item{
+    width: 620px;
+    height: 210px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.uzbek__item--head{
+    width: 305px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.uzbek__item--title{
+    width: 305px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.uzbek__item--span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.uzbek__box2{
+    display: flex;
+    align-items: center;
+}
+
+.uzbek__list2{
+    margin-right: 100px;
+}
+
+.uzbek__item2{
+    width: 520px;
+    height: 660px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.uzbek__item--head2{
+    width: 526px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.uzbek__item--title2{
+    width: 455px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.uzbek__item--span2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+}

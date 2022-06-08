@@ -1,0 +1,114 @@
+.ElektroJurnal_Title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px;
+    color: #242424;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.Journallar__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #4E4E4E;
+    margin-top: 92px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Media_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px;
+    color: #4E4E4E;
+    margin-top: 124px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.Book_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #4E4E4E;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.Partners_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px;
+    color: #4E4E4E;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.Partners {
+    margin-bottom: 120px
+}
+
+.Contact {
+    margin-top: 120px;
+    margin-bottom: 70px;
+
+    &_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 38px;
+        color: #4E4E4E;
+        margin-bottom: 17px;
+    }
+
+    &--line {
+        display: inline-block;
+        width: 100%;
+        max-width: 106px;
+        height: 4px;
+        background-color: #4E4E4E;
+        margin-bottom: 40px;
+    }
+}
+
+.nav__link {
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    &--list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &--item {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-transform: uppercase;
+
+    }
+
+    &--link {
+        color: #242424;
+
+    }
+}

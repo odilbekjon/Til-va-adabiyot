@@ -1,0 +1,63 @@
+.Book__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &--item {
+        width: 100%;
+        max-width: 298px;
+        padding: 20px;
+        background-color: #FFFFFF;
+        background: #FFFFFF;
+        border: 1px solid rgba(196, 196, 196, 0.2);
+        border-radius: 10px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    &--title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #242424;
+        opacity: 0.9;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    &--articl {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #242424;
+        opacity: 0.6;
+    }
+
+    &--data {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(24, 24, 24, 0.6);
+    }
+
+    &--download {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("../../img/download.png");
+    }
+
+    &--btm {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

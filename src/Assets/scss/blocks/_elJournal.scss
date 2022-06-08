@@ -1,0 +1,38 @@
+.ElJournal__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &Item {
+        width: 100%;
+        max-width: 407px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    &--info {
+        margin: 10px 32px 25px 20px;
+    }
+
+    &--title {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    &--text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: #333333;
+        margin-top: 5px;
+    }
+
+}

@@ -1,0 +1,115 @@
+.vacancy{
+    margin-top: 50px;
+}
+
+.vacancy__wrapper{
+    display: flex;
+    margin-top: 100px;
+}
+
+.wrapper__link--new{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 135px;
+    padding-left: 26px;
+    border: 2px solid ;
+    border-radius: 30px;
+    background-color: #d0e6ff;
+    color: #0075FF;
+    border: none;
+}
+
+.wrapper__link--new2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0075FF;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.vacancy__right{
+    margin-left: 50px;
+}
+
+.vacancy__head{
+    width: 179px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #1D4573;
+    border-bottom: 2px solid #0085FF;
+    padding-bottom: 10px;
+}
+
+.vacancy__list{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+}
+
+.vacancy__item{
+    padding: 15px;
+    border: 2px solid #cde4ff;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+.vacancy__item--head{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D4573;
+    margin-bottom: 15px;
+}
+
+.vacancy__item--title{
+    width: 342px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1D4573;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.vacancy__item--span{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    color: #0075FF;
+    border-bottom: 2px solid #c5e0ff;
+    padding-bottom: 10px;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.vacancy__item--btn{
+    padding: 20px 34px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1D4573;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,41 @@
+.media__box{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    // text-align: center;
+}
+
+.media__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.media__item1{
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.media__item2
+
+.media__video{
+    border-radius: 10px;
+}
+
+.media__title{
+    width: 100%;
+    max-width: 500px;
+    color: #999;
+}
+
+.media__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    // margin-top: 50px;
+}
+
+.media__wrapper--item{
+    margin-top: 50px;
+}

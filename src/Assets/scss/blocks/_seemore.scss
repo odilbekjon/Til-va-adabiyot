@@ -1,0 +1,45 @@
+.seemore__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    border: 1px solid #C8DACB;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+    background-color: transparent;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:first-child {
+        background-image: url('../../img/Vectorl.svg');
+    }
+
+    &:last-child {
+        background-image: url('../../img/Vector.svg');
+    }
+}
+
+.dezable {
+    background-color: #C8DACB;
+}
+
+.more__button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    color: #53B164;
+    padding: 16px 45px;
+    background-color: transparent;
+    border: 1px solid #53B164;
+    border-radius: 10px;
+}

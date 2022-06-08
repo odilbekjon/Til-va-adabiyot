@@ -1,0 +1,114 @@
+.magazine{
+    margin-top: 50px;
+}
+
+.magazine__header{
+    margin-top: 200px;
+}
+
+.magazine__head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+}
+
+.magazine__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.magazine__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    align-items: center;
+}
+
+.magazine__item{
+    width: 400px;
+    border: 2px solid #333;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.magazine__item--img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.magazine__item--box{
+    padding: 10px;
+}
+
+.magazine__item:nth-child(3){
+    margin-right: 0;
+}
+
+.magazine__item:nth-child(6){
+    margin-right: 0;
+}
+
+.magazine__item--name{
+    width: 360px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.magazine__item--title{
+    width: 360px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.magazine__item--date{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    opacity: 0.6;
+    margin-right: 20px;
+}
+
+.magazine__item--clock{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    opacity: 0.6;
+    margin-right: 20px;
+}
+
+.magazine__item--num{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    opacity: 0.6;
+}
