@@ -1,5 +1,9 @@
 import Head from "next/head";
+import { useSelector } from "react-redux";
+import Content from "../src/Localization/Content";
 
+
+// images
 import Book from "../src/Components/book/book";
 import Books from "../src/Components/books/boks";
 import Contact from "../src/Components/contact/contact";
@@ -15,6 +19,13 @@ import JournallarArr from "../faceBackend/jurnal"
 import BookArr from "../faceBackend/book"
 
 export default function Home() {
+  
+  const {
+    count:{lang}
+  } = useSelector((state) => state);
+
+  const { contact: con } = Content[lang];
+
   return (
     <>
       <Head>
@@ -93,7 +104,7 @@ export default function Home() {
       </section>
       <section className="Contact">
         <div className="container">
-          <h3 className="Contact_title">Biz bilan bog'lanish</h3>
+          <h3 className="Contact_title">{con.title1}</h3>
           <hr className="Contact--line" />
           <Contact />
         </div>

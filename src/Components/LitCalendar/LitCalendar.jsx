@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Content from "../../Localization/Content";
+import { useSelector } from "react-redux";
 
 
 // images
@@ -39,14 +41,20 @@ const data = [
 
 function Literature() {
 
+    const {
+        count:{lang}
+      } = useSelector((state) => state);
+    
+      const { literature: li } = Content[lang];
+
     return(
         <>
            <div className="container">
                <div className="aside">
                    <div className="aside__wrapp">
                        <div className="aside__left">
-                        <Link href={'/'}><a className='aside__link' >Bosh sahifa</a></Link>
-                        <span className='aside__span'> | Adabiy taqvim</span>
+                        <Link href={'/'}><a className='aside__link' >{li.title1}</a></Link>
+                        <span className='aside__span'> | {li.title2}</span>
                        </div>
                        <div className="aside__right">
                            <select className='aside__select' name="" id="">

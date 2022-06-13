@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import Content from "../../Localization/Content";
+import { useSelector } from "react-redux";
 
 // img
 import Corona1 from '../../Assets/images/magazine-img1.png';
@@ -64,13 +66,20 @@ const magazines = [
 ]
 
 export default function Magazines() {
+
+    const {
+        count:{lang}
+      } = useSelector((state) => state);
+    
+      const { literature: li } = Content[lang];
+
     return(
         <section>
             <div className="container">
                 <div className="magazine">
                    <div className="aside__left">
-                        <Link href={'/'}><a className='aside__link' >Bosh sahifa</a></Link>
-                        <span className='aside__span'> | Bosma jurnal</span>
+                        <Link href={'/'}><a className='aside__link' >{li.title1}</a></Link>
+                        <span className='aside__span'> | {li.title2}</span>
                     </div>
                     <div className="magazine__header">
                         <h1 className="magazine__head">Dolzarb yangiliklar</h1>

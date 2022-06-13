@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import Content from "../../Localization/Content";
+import { useSelector } from "react-redux";
 
 // images
 import News1 from "../../Assets/images/news1.png";
@@ -7,13 +9,20 @@ import News2 from "../../Assets/images/news2.png";
 
 
 export default function UzbekNews(){
+
+    const {
+        count:{lang}
+    } = useSelector((state) => state);
+    
+    const { literature: li } = Content[lang];
+
     return(
         <section>
             <div className="container">
                 <div className="news">
                     <div className="news__header">
-                        <Link href={'/'}><a className='aside__link' >Bosh sahifa</a></Link>
-                        <span className='aside__span'> | Bosma jurnal</span>
+                        <Link href={'/'}><a className='aside__link' >{li.title1}</a></Link>
+                        <span className='aside__span'> | {li.title2}</span>
                     </div>
                     <div className="news__content">
                         <h1 className="content__header">O'zbekiston neft va gaz qazib olishni kengaytirish</h1>

@@ -1,13 +1,20 @@
 import Link from "next/link"
 
 export default function Vacancy(){
+
+    const {
+        count:{lang}
+    } = useSelector((state) => state);
+    
+    const { literature: li } = Content[lang];
+
     return(
         <section>
             <div className="container">
                 <div className="vacancy">
                     <div className="vacancy__header">
-                        <Link href={'/'}><a className='aside__link' >Bosh sahifa</a></Link>
-                        <span className='aside__span'> | Bosma jurnal</span>
+                        <Link href={'/'}><a className='aside__link' >{li.title1}</a></Link>
+                        <span className='aside__span'> | {li.title2}</span>
                     </div>
                     <div className="vacancy__wrapper">
                         <div className="vacancy__left">

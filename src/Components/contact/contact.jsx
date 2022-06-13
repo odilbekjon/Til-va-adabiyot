@@ -1,4 +1,14 @@
+import Content from "../../Localization/Content";
+import { useSelector } from "react-redux";
+
 const Contact = () => {
+    
+    const {
+        count:{lang}
+    } = useSelector((state) => state);
+    
+    const { contact: con } = Content[lang];
+
     return (
         <>
             <div className="contact__wrapper">
@@ -7,7 +17,7 @@ const Contact = () => {
                         <a className="contact__wrapper--left--link">
                             <div className="contact__wrapper--left--info">
                                 <div>
-                                    <h4 className="contact__wrapper--title">Phone Number</h4>
+                                    <h4 className="contact__wrapper--title">{con.title2}</h4>
                                     <p className="contact__wrapper--text">+998 94 625 85 24</p>
                                 </div>
                             </div>
@@ -17,7 +27,7 @@ const Contact = () => {
                         <a className="contact__wrapper--left--link">
                             <div className="contact__wrapper--left--info contact__wrapper--left--info2">
                                 <div>
-                                    <h4 className="contact__wrapper--title">Email Address</h4>
+                                    <h4 className="contact__wrapper--title">{con.title3}</h4>
                                     <p className="contact__wrapper--text">logeekascience@gmail.com</p>
                                 </div>
                             </div>
@@ -27,7 +37,7 @@ const Contact = () => {
                         <a className="contact__wrapper--left--link">
                             <div className="contact__wrapper--left--info contact__wrapper--left--info3">
                                 <div>
-                                    <h4 className="contact__wrapper--title">Instagram</h4>
+                                    <h4 className="contact__wrapper--title">{con.title4}</h4>
                                     <p className="contact__wrapper--text">logeekascience</p>
                                 </div>
                             </div>
@@ -37,7 +47,7 @@ const Contact = () => {
                         <a className="contact__wrapper--left--link">
                             <div className="contact__wrapper--left--info contact__wrapper--left--info4">
                                 <div>
-                                    <h4 className="contact__wrapper--title">Telegram</h4>
+                                    <h4 className="contact__wrapper--title">{con.title5}</h4>
                                     <p className="contact__wrapper--text">Logeekascince</p>
                                 </div>
                             </div>
@@ -47,7 +57,7 @@ const Contact = () => {
                         <a className="contact__wrapper--left--link">
                             <div className="contact__wrapper--left--info contact__wrapper--left--info5">
                                 <div>
-                                    <h4 className="contact__wrapper--title">Facebook</h4>
+                                    <h4 className="contact__wrapper--title">{con.title6}</h4>
                                     <p className="contact__wrapper--text">Logeekascince</p>
                                 </div>
                             </div>
@@ -55,8 +65,8 @@ const Contact = () => {
                     </li>
                 </ul>
                 <div className="contact__wrapper--right">
-                    <h2 className="contact__wrapper--right--title">Send Messege</h2>
-                    <p className="contact__wrapper--right--text">If you have any questions, you can send us an SMS or contact us by phone you can also contact us via social networks.</p>
+                    <h2 className="contact__wrapper--right--title">{con.title7}</h2>
+                    <p className="contact__wrapper--right--text">{con.title8}</p>
 
                     <form className="contact__wrapper--right--form" method="POST">
                         <input className="contact__wrapper--right--input" type="text" placeholder="Your name" required />
@@ -64,7 +74,7 @@ const Contact = () => {
                         <input className="contact__wrapper--right--input" type="number" placeholder="Phone number" required />
                         <input className="contact__wrapper--right--input" type="text" placeholder="Telegram" required />
                         <textarea className="contact__wrapper--right--input contact__wrapper--right--input--message" />
-                        <button className="contact__wrapper--right--btn">Send message</button>
+                        <button className="contact__wrapper--right--btn">{con.title7}</button>
                     </form>
                 </div>
             </div>

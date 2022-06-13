@@ -1,17 +1,26 @@
 import Link from "next/link";
 import Image from "next/image";
+import Content from "../../Localization/Content";
+import { useDispatch, useSelector } from "react-redux";
 
 // images
 import Ellipse from "../../Assets/images/Ellipse.png";
 
 export default function Article(){
+
+    const {
+        count:{lang}
+      } = useSelector((state) => state);
+    
+      const { literature: li } = Content[lang];
+
     return(
         <section>
             <div className="container">
                 <div className="article">
                     <div className="article__header">
-                        <Link href={'/'}><a className='aside__link' >Bosh sahifa</a></Link>
-                        <span className='aside__span'> | Bosma jurnal</span>
+                        <Link href={'/'}><a className='aside__link' >{li.title1}</a></Link>
+                        <span className='aside__span'> | {li.title2}</span>
                     </div>
                     <div className="article__box">
                         <div className="article__left">
